@@ -1,10 +1,8 @@
 #include <stdio.h>
-	int main() {
-	  char fruits[6] = {'a', 'b', 'c', 'd', 'e', 'f'}; 
-	
-	  size_t size_of_fruits = sizeof(fruits);
-	
-	  printf("Размер коробки fruits: %zu байт\n", size_of_fruits);
-	
-	  return 0;
+
+int main() {
+  char fruits[6] = {'a', 'b', 'c', 'd', 'e', 'f'}; 
+  size_t size_of_fruits = sizeof(fruits);
+  printf("Размер коробки fruits: %zu байт\n", size_of_fruits);
+  return 0;
 }
